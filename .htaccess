@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^index\.html$ media.php?module=index&id=$1 [L]
+RewriteRule ^about-us\.html$ media.php?module=about&id=$1 [L]
+RewriteRule ^gallery\.html$ media.php?module=gallery&id=$1 [L]
+RewriteRule ^blog\.html$ media.php?module=blog&id=$1 [L]
+RewriteRule ^contact-us\.html$ media.php?module=contact-us&id=$1 [L]
+RewriteRule ^blog-(.*)-([0-9])\.html$ media.php?module=blog&id=$1&halaman=$2 [L]
+RewriteRule ^blog-(.*)\.html$ media.php?module=detail-blog&id=$1 [L]
+RewriteRule ^searching\.html$ media.php?module=hasil-pencarian&id=$1 [L]
+RewriteRule ^komentar-(.*)\.html$ media.php?module=komentar&id=$1 [L]
+RewriteRule ^search-(.*)-([0-9])\.html$ media.php?module=searchpage&id=$1&halaman=$2 [L]
+RewriteRule ^contact-(.*)\.html$ media.php?module=contact-hasil&id=$1 [L]
+
+Options All -Indexes
+</IfModule>
+

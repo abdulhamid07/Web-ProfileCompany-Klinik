@@ -1,0 +1,17 @@
+
+.listticker{
+	height:350px;
+	overflow:hidden;
+}
+
+ul li.lticker{
+	margin: 0px;
+	font-size: 12px;
+	padding-bottom: 0px;
+	list-style: none;
+	    position: relative;
+    margin: 0 auto;
+
+}
+
+

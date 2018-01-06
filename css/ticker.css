@@ -1,0 +1,37 @@
+#listticker{
+	height:250px;
+	width:100%;
+	overflow:hidden;
+}
+
+.judul{
+	color:#ffff00;
+	font-weight: bold;
+}
+ul li.lticker{
+	margin: 0px;
+	font-size: 11px;
+	border-bottom: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #D47A04;
+}
+.isib{
+	color:#fff;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+.lengkap{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #dedede;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+.kkota{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 0px;
+}
+
+
